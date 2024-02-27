@@ -41,4 +41,5 @@ Pour le front, nous utiliserons Vue et VueDsfr
 
 1. Créons d’abord un fichier [.gitignore](./docs/gitignore.md)
 2. Créons ensuite un fichier [.editorconfig](./docs/editorconfig.md)
-3. Créons ensuite un fichier [pnpm-workspace.yaml](./docs/pnpm.md)
+3. Créons ensuite un fichier [pnpm-workspace.yaml](./docs/pnpm.mdgi)
+4. Ajoutons turbo dans les dépendances et configurons-le [`turbo.json`](./docs/turbo.md)
