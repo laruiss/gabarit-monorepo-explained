@@ -6,6 +6,10 @@
   "author": "Stanislas Ormières <stan@stormier.ninja> (https://stormier.ninja)",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^9.0.11",
     "turbo": "^1.12.4"
+  },
+  "scripts": {
+    "prepare": "husky"
   }
 }
