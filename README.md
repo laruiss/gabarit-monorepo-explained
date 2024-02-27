@@ -36,3 +36,7 @@ Pour le back, nous allons faire une API avec Fastify.
 ### front
 
 Pour le front, nous utiliserons Vue et VueDsfr
+
+## Les étapes
+
+1. Créons d’abord un fichier [.gitignore](./docs/gitignore.md)
