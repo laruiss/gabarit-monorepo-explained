@@ -1,0 +1,20 @@
+{
+  "name": "@dummy/eslint-config-default",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Configuration ESLint commune à tous les workspaces de ce monorepo",
+  "author": "Stanislas Ormières <stan@stormier.ninja> (https://stormier.ninja)",
+  "license": "ISC",
+  "keywords": [],
+  "main": "eslint.config.js",
+  "scripts": {},
+  "dependencies": {
+    "@antfu/eslint-config": "^2.6.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.4",
+    "@unocss/eslint-plugin": "^0.58.5",
+    "eslint": "npm:eslint-ts-patch@^8.56.0-0",
+    "eslint-plugin-vue": "^9.22.0"
+  }
+}
