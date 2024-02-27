@@ -40,3 +40,4 @@ Pour le front, nous utiliserons Vue et VueDsfr
 ## Les étapes
 
 1. Créons d’abord un fichier [.gitignore](./docs/gitignore.md)
+2. Créons ensuite un fichier [.editorconfig](./docs/editorconfig.md)
