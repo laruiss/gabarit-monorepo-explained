@@ -1,0 +1,8 @@
+{
+  "name": "fabnum-monorepo-template",
+  "version": "1.0.0",
+  "description": "Gabarit d’application fullstack JS/TS pour la Fabrique Numérique",
+  "keywords": [],
+  "author": "Stanislas Ormières <stan@stormier.ninja> (https://stormier.ninja)",
+  "license": "ISC"
+}
