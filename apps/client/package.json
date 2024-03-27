@@ -1,0 +1,47 @@
+{
+  "name": "@dummy/client",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "i:pw": "playwright install",
+    "test:unit": "vitest",
+    "test:e2e": "playwright test",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force",
+    "lint": "eslint .",
+    "lint-staged": "eslint"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@dummy/eslint-config-default": "workspace:^",
+    "@playwright/test": "^1.42.1",
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.11.30",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "@vue/test-utils": "^2.4.5",
+    "@vue/tsconfig": "^0.5.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-playwright": "^1.5.4",
+    "eslint-plugin-vue": "^9.24.0",
+    "jsdom": "^24.0.0",
+    "npm-run-all2": "^6.1.2",
+    "typescript": "~5.4.3",
+    "unocss": "^0.58.7",
+    "vite": "^5.2.6",
+    "vite-plugin-vue-devtools": "^7.0.24",
+    "vitest": "^1.4.0",
+    "vue-tsc": "^2.0.7"
+  }
+}

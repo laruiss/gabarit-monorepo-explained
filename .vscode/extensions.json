@@ -1,0 +1,30 @@
+{
+  "recommendations": [
+    // Cross-editor config
+    "editorconfig.editorconfig",
+
+    // Git
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "vivaxy.vscode-conventional-commits",
+
+    // JavaScript
+    "dbaeumer.vscode-eslint",
+
+    // Vue.js
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin",
+    "matijao.vue-nuxt-snippets",
+
+    // CSS
+    "stylelint.vscode-stylelint",
+    "antfu.unocss",
+
+    // Prisma
+    "prisma.prisma",
+
+    // REST Client
+    "humao.rest-client"
+
+  ]
+}
