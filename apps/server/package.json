@@ -1,0 +1,46 @@
+{
+  "name": "@dummy/api",
+  "version": "1.0.0",
+  "description": "API de l’application dummy",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "clean:dist": "rimraf dist",
+    "test": "vitest",
+    "start": "node dist/index.js",
+    "dev": "vite",
+    "build:only": "vite build",
+    "db:generate": "prisma generate",
+    "build": "run-s clean:dist build:only",
+    "lint": "eslint .",
+    "lint:staged": "eslint",
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "fastify": "^4.26.2",
+    "fastify-plugin": "^4.5.1",
+    "prisma": "^5.11.0"
+  },
+  "devDependencies": {
+    "@dummy/eslint-config-default": "workspace:^",
+    "@types/node": "^20.11.30",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "nodemon": "^3.1.0",
+    "npm-run-all2": "^6.1.2",
+    "rimraf": "^5.0.5",
+    "ts-patch": "^3.1.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.3",
+    "typescript-transform-paths": "^3.4.7",
+    "vite": "^5.2.6",
+    "vite-plugin-node": "^3.1.0",
+    "vite-tsconfig-paths": "^4.3.2"
+  },
+  "volta": {
+    "node": "20.11.1"
+  }
+}

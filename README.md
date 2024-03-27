@@ -43,3 +43,4 @@ Pour le front, nous utiliserons Vue et VueDsfr
 2. Créons ensuite un fichier [.editorconfig](./docs/editorconfig.md)
 3. Créons ensuite un fichier [pnpm-workspace.yaml](./docs/pnpm.mdgi)
 4. Ajoutons turbo dans les dépendances et configurons-le [`turbo.json`](./docs/turbo.md)
+5. Ajoutons un serveur simple fait avec [fastify](./docs/fastify.md)

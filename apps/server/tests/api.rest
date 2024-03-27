@@ -1,0 +1,15 @@
+@protocol = http://
+@host = localhost
+@port = 3000
+@apiPrefix = /api
+@baseUrl = {{protocol}}{{host}}:{{port}}{{apiPrefix}}
+
+###
+{{baseUrl}}/version
+
+### Create user
+POST {{baseUrl}}/version HTTP/1.1
+
+{
+  
+}

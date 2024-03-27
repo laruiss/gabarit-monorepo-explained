@@ -1,6 +1,8 @@
 import antfu from '@antfu/eslint-config'
 
 export default (main = {}, overrides = {}) => antfu({
+  unocss: true,
+  vue: true,
   typescript: true,
   yaml: true,
   jsonc: true,
